@@ -1,27 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './Components/Header'
-import Main from './Components/Main'
-import Footer from './Components/Footer'
-import Aside from './Components/Aside'
+import Header from './Components/Header/Header'
+import Main from './Components/Main/Main'
+import Footer from './Components/Footer/Footer'
+import Aside from './Components/Aside/Aside'
 
 
 
 function App() {
   return (
     <div className="App">
-      <header>
+      <Header>
   
-      </header>
-      <main>
+      </Header>
+      <Main>
         
-      </main>
-      <aside>
+      </Main>
+      <Aside>
 
-      </aside>
-      <footer>
+      </Aside>
+      <Footer>
        
-      </footer>
+      </Footer>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import FAQImage from './FAQImage'
-import AboutUsImage from './AboutUsImage'
+import FAQImage from './FAQImage/FAQImage'
+import AboutUsImage from './AboutUsImage/AboutUsImage'
 
 
 function Aside () {

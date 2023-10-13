@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactUs from './ContactUs'
+import ContactUs from './ContactUs/ContactUs'
 
 
 function Footer () {
