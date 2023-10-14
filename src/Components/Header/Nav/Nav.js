@@ -1,12 +1,20 @@
-import React from 'react'
+import React from 'react';
+import './Nav.css'
+ 
 
-function Nav () {
-    (
-     <div>
-        <h1>blah</h1>
-     </div>
-    );
+function Nav() {
+  return (
+    <div>
+        <ol className='NavHeadings'>
+          <li className='Title'>Warragul Counselling Services</li>
+          <li><a href="Home">Home</a></li>
+          <li><a href="About">About</a></li>
+          <li><a href="Specialties">Specialties</a></li>
+          <li><a href="FAQ">FAQ</a></li>
+          <li><a href="Fees">Fees</a></li>
+        </ol>
+    </div>
+  );
 }
 
-
-export default Nav
+export default Nav;

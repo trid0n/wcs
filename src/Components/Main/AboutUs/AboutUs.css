@@ -1,0 +1,10 @@
+.PicOfDavid {
+    display: flex;
+    justify-content: left;
+    
+}
+
+.AboutUsParagraph {
+    display: flex;
+    justify-content: right;
+}
