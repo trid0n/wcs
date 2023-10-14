@@ -1,10 +1,26 @@
 .PicOfDavid {
-    display: flex;
-    justify-content: left;
+    display:block;
+    padding: 5% 5%;
+    max-width: 50%;
     
 }
 
 .AboutUsParagraph {
+    flex: 1;
+    padding: 5% 5%;
+    max-width:50%;
+    text-align: center;
+    
+}
+
+.Container {
     display: flex;
-    justify-content: right;
+    align-items: center; /* Vertically center the content */
+    justify-content:center;
+    padding: 5%; /* Add space around the container */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4;
 }
