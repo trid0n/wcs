@@ -1,29 +1,52 @@
-.PicOfDavid {
-    display:block;
-    padding: 5% 5%;
-    max-width: 50%;
-    
+.content {
+    background-color:rgb(249, 249, 249);
+    height:120vh;
+    display:flex;
 }
-
-.SpecialtiesParagraph {
-    flex: 1;
-    padding: 5% 5%;
-    max-width:50%;
-    text-align: center;
-    
-}
-
-.SpecialtiesContainer {
+.carousel {
+    width: 70%;
+    margin: 0 auto;
+    padding-top:20vh;
+    padding-bottom:90vh;
+   
+  }
+  .carousel-item-content {
+    height: 80vh; 
     display: flex;
-    align-items: center; /* Vertically center the content */
-    justify-content:center;
-    padding: 5%; /* Add space around the container */
-    background-color: #f7f7f7;
-    height:100vh;
-    
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.4;
-}
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: white; 
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0; /* Center horizontally */
+    right: 0; /* Center horizontally */
+    text-align: center; /* Center text content */
+  }
+  
+  .carousel-caption h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    font-size: 16px;
+    font-style: italic;
+  }
+  
+  .carousel-item:nth-child(odd) .carousel-caption {
+    background-color: rgba(255, 0, 0, 0.6); 
+  }
+  
+  .carousel-item:nth-child(even) .carousel-caption {
+    background-color: rgba(0, 0, 255, 0.6); 
+  }
+  
+  
+  
+  
