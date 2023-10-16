@@ -5,7 +5,7 @@ import './Specialties.css'
 
 function Specialties () {
     return ( 
-        <div className='SpecialtiesContainer'> 
+        <div className='SpecialtiesContainer' id='/Specialties'> 
             <div className='SpecialtiesParagraph'>
         <h2>Specialties</h2>
         <p>content</p>

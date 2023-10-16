@@ -4,7 +4,8 @@ import './Header.css'
 
 function Header () {
     return (
-        <div className="Parallax">
+        <div className="Parallax" id='/Home'>
+           
             <Nav>
                 
             </Nav>

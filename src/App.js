@@ -9,7 +9,6 @@ import Aside from './Components/Aside/Aside'
 function App() {
   return (
     <div className="App">
-      
       <Header>
       
       </Header>
