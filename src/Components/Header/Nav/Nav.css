@@ -25,19 +25,22 @@ background: rgba(71, 71, 71, 0.5);
    font-weight:bold ;
    color:rgb(2, 0, 26);
    z-index:1;
+   cursor: pointer;
 }
 
 li {
-    color: #ffffff;
+    color: #d8eefa;
     text-decoration: none;
     padding-left: 1.7vw;
     padding-right: 1.7vw;
-    font-size:larger;
-    
+    font-size: larger;
+    border-bottom: 3px solid transparent; /* Transparent border by default */
+    transition: border-color 0.3s ease;
 }
 
-li:hover { 
-    padding-bottom: 12px;
-    border-bottom: 3px solid orange
+li.item:hover { 
+    padding-bottom:0;
+    border-bottom: 3px solid rgb(157, 206, 247);
+    cursor: pointer;
 }
 
