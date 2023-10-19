@@ -35,7 +35,7 @@ function AboutUs () {
     <section>
         <h2>Experience</h2>
         <p>
-            I have worked for over 25 years in the field of Psychology both in the public and private sector. I worked for GARRS which supported people who were in recovery of a severe mental illness. For over 10 years I worked as a practitioner and Team Leader for Connections & Anglicare in the Families First program. I now work in private practice and enjoy bringing about change in people's lives.
+            I have worked for over 30 years in the field of Psychology both in the public and private sector. I worked for GARRS which supported people who were in recovery of a severe mental illness. For over 10 years I worked as a practitioner and Team Leader for Connections & Anglicare in the Families First program. I now work in private practice and enjoy bringing about change in people's lives.
         </p>
         </section>
             </div>

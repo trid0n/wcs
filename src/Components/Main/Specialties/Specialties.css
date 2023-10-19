@@ -1,35 +1,50 @@
 .content {
-    background-color:rgb(249, 249, 249);
-    height:120vh;
-    display:flex;
-}
-.carousel {
-    width: 70%;
-    margin: 0 auto;
-    padding-top:20vh;
-    padding-bottom:90vh;
-   
+    background-color: rgb(249, 249, 249);
+    height: 120vh;
+    display: flex;
+    position: relative; /* Add this for z-index stacking context */
   }
+  
+  .carousel {
+    width: 55vw;
+    margin: 0 auto;
+    z-index: 1;
+    padding-top:30vh;
+  }
+  
+  .specialties-title {
+    display: flex;
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px; 
+    z-index: 2;
+    font-size:2em
+  }
+  
   .carousel-item-content {
-    height: 80vh; 
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
   .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.6); 
-    color: white; 
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
     padding: 20px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 0; /* Center horizontally */
-    right: 0; /* Center horizontally */
-    text-align: center; /* Center text content */
+    left: 0;
+    right: 0;
+    text-align: center;
+    
   }
   
   .carousel-caption h3 {
+    padding-top:5vw;
     font-size: 24px;
     font-weight: bold;
   }
@@ -37,16 +52,14 @@
   .carousel-caption p {
     font-size: 16px;
     font-style: italic;
+    padding-top:2vw;
   }
-  
-  .carousel-item:nth-child(odd) .carousel-caption {
-    background-color: rgba(255, 0, 0, 0.6); 
+
+  .carousel.slide {
+height: 100vh;
   }
-  
-  .carousel-item:nth-child(even) .carousel-caption {
-    background-color: rgba(0, 0, 255, 0.6); 
+
+  .carousel-control-next,
+  .carousel-control-prev {
+height: 130vh;
   }
-  
-  
-  
-  
