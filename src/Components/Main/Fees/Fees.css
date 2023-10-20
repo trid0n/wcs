@@ -1,23 +1,35 @@
 .Fees {
-    background-color: rgb(249, 249, 249);
+background-color: rgb(249, 249, 249);
+}
+
+.Fees-container {
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 
 .Fees-h2, .Fees-h1, .Fees-p {
-    display:flex;
-    justify-content: center;
-    align-items: center;
+max-width: 70vw;
 }
 
 
 .Fees-h2 {
-
+font-size:1.4em;
 }
 
 .Fees-h1 {
-
+padding-top: 15vh;
+font-size:1.4em;
 }
 
 .Fees-p {
-padding:10vh
+padding:5vh;
+text-align:left;
+min-width: 70vw;
+font-size:1em;
+}
+
+#last-section {
+    text-align:center;
 }
