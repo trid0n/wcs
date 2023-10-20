@@ -1,0 +1,23 @@
+.Fees {
+    background-color: rgb(249, 249, 249);
+}
+
+
+.Fees-h2, .Fees-h1, .Fees-p {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Fees-h2 {
+
+}
+
+.Fees-h1 {
+
+}
+
+.Fees-p {
+padding:10vh
+}
