@@ -1,5 +1,5 @@
 .FAQ-container {
-   
+    
     padding-left: 30vw;
     padding-right: 30vw;
     padding-bottom: 20vh;
@@ -20,6 +20,7 @@
     margin: 5px; /* Add some margin between columns */
     padding-left: 50px; /* Add padding for spacing inside columns */
     padding-right: 50px;
+    
   }
   
   /*column inner container is .styles_faq-row-wrapper__3vA1D*/
