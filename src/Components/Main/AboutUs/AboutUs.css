@@ -20,8 +20,9 @@
     align-items: center;
     justify-content: center;
     padding: 5%;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 100vh;
+    border:solid 10px #6c7d81;
   }
   
   p {
