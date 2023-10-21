@@ -1,15 +1,36 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Dad from '../../Assets/Dad.jpg';
 import './AboutUs.css';
 
 function AboutUs() {
+  useEffect(() => {
+    // JavaScript for scrolling animation
+    function handleScroll() {
+      const elements = document.querySelectorAll('.fade-in');
+      
+      elements.forEach((element) => {
+        const rect = element.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+        
+        if (rect.top < windowHeight * 0.75) {
+          element.classList.add('visible');
+        } else {
+          element.classList.remove('visible');
+        }
+      });
+    }
+
+    // Listen for scroll events
+    window.addEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <div className='AboutUsContainer' id='/About'>
+    <div className='AboutUsContainer' id='About'>
       <div className='PicOfDavid'>
         <img src={Dad} alt="A picture of David Winfield" />
       </div>
-      <h1 className='title'>Practitioner</h1>
-      <div className='AboutUsParagraph'>
+      <h1 className='title fade-in'>Practitioner</h1>
+      <div className='AboutUsParagraph fade-in'>
         <table className='centered-table'>
           <tbody>
             <tr>

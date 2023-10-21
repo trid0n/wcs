@@ -20,7 +20,8 @@
     transform: translate(-50%, -50%);
     padding: 20px; 
     z-index: 2;
-    font-size:2em
+    font-size:2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   }
   
   .carousel-item-content {
@@ -28,23 +29,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   
   .carousel-caption {
+    
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     padding: 20px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 0;
-    right: 0;
+    margin-left:10em;
+    margin-right:10em;
+    height: 15em;
     text-align: center;
-    
+    align-items: center;
   }
   
   .carousel-caption h3 {
-    padding-top:5vw;
+    padding-top:5vh;
     font-size: 24px;
     font-weight: bold;
   }
@@ -63,3 +67,4 @@ height: 100vh;
   .carousel-control-prev {
 height: 130vh;
   }
+  

@@ -9,3 +9,20 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+.App-outer-border {
+    padding-bottom:3em;
+    padding-left:3em;
+    padding-right:3em;
+    padding-top:3em;
+    background-color: white;
+    position: relative;
+
+}
+
+.App-border {
+    border-bottom:solid 10px #6c7d81;
+    border-left:solid 10px #6c7d81;
+    border-right:solid 10px #6c7d81;
+    border-top:solid 10px #6c7d81;
+}
