@@ -11,7 +11,7 @@ function Header () {
             <Nav>
                 
             </Nav>
-            <button className='LearnMore'><Link to='/About' smooth={true}  duration={320} >Learn Mo</Link></button>
+            <button className='LearnMore'><Link to='/About' smooth={true}  duration={320} >Learn More</Link></button>
 
         </div>
     );
