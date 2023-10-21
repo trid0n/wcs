@@ -1,5 +1,4 @@
-/* Your existing CSS */
-.PicOfDavid {
+  .PicOfDavid {
     padding: 5%;
     max-width: 50%;
   }
@@ -56,14 +55,19 @@
   .table-title {
     vertical-align: middle;
     font-size: 1.5em;
-    padding-bottom:2vh;
+    height:2.5em;
   }
   
   .Experience-title {
     display:flex;
     justify-content: center;
     padding-bottom:5vh;
-    padding-top:5vh;
   }
 
-
+  .AboutUsParagraph p {
+    height:4em;
+  }
+.border {
+  background-color: white;
+  position: relative;
+}

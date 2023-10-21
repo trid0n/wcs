@@ -3,6 +3,7 @@
     height: 120vh;
     display: flex;
     position: relative; /* Add this for z-index stacking context */
+    
   }
   
   .carousel {
@@ -29,6 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   
   .carousel-caption {
@@ -39,14 +41,15 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 20em;
-    right: 20em;
+    margin-left:10em;
+    margin-right:10em;
     height: 15em;
     text-align: center;
+    align-items: center;
   }
   
   .carousel-caption h3 {
-    padding-top:5vw;
+    padding-top:5vh;
     font-size: 24px;
     font-weight: bold;
   }

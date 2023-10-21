@@ -1,8 +1,26 @@
 .Parallax {
-    background-image: url('../Assets/HeroImage3.png'); /* Your full-screen background image */
+    background-image: url('../Assets/HeroImage3.png'); 
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     position:relative;
 }
+.LearnMore {
+    position:fixed;
+    top: 90%;
+    right: 50%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db; /* Blue background color */
+    color: #ffffff; /* Text color */
+    border: none;
+    border-radius: 25px !important; /* Adjust the value for roundness */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition for the hover effect */
+    z-index:0;
+  }
+  
+.LearnMore:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }

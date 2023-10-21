@@ -7,7 +7,7 @@ function AboutUs() {
     <div className='border'>
     <div className='AboutUsContainer' id='/About'>
       <div className='PicOfDavid'>
-        <img src={Dad} alt="A picture of David Winfield" />
+        <img src={Dad} alt="A picture of David Winfield"></img>
       </div>
       <h1 className='title'>Practitioner</h1>
       <div className='AboutUsParagraph'>

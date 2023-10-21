@@ -1,10 +1,12 @@
 .FAQ-container {
-    
     padding-left: 30vw;
     padding-right: 30vw;
     padding-bottom: 20vh;
     justify-content: center;
     display: flex; /* Use flexbox to create a two-column layout */
+    position: relative;
+    z-index: 2;
+    background-color: white;
   }
 
   .FAQ-title {
@@ -12,6 +14,8 @@
     display:flex;
     padding-bottom:3vh;
     padding-top:15vh;
+    background-color: white;
+    position: relative;
   }
 
   .column-container {
