@@ -25,7 +25,7 @@ function AboutUs() {
   }, []);
 
   return (
-    <div className='AboutUsContainer' id='About'>
+    <div className='AboutUsContainer' id='/About'>
       <div className='PicOfDavid'>
         <img src={Dad} alt="A picture of David Winfield" />
       </div>
