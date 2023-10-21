@@ -1,5 +1,5 @@
 .Parallax {
-    background-image: url('../Assets/HeroImage3.jpg'); /* Your full-screen background image */
+    background-image: url('../Assets/HeroImage3.png'); /* Your full-screen background image */
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
