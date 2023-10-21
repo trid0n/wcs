@@ -14,11 +14,11 @@ function ContactUs () {
       <p>Office: 60 Victoria Street Warragul - Open Weekdays</p>
     </div>
     <div className="footer-section">
-      <p>POSTAL ADDRESS: PO Box 787 Warragul Vic 3820</p>
+      <p>Postal Address: PO Box 787 Warragul Vic 3820</p>
     </div>
     <div className="footer-section">
-      <p>Telephone: 0430203049</p>
-      <p>FAX: 03 8677 1199</p>
+      <p>Telephone: (+61) 0430203049</p>
+      <p>Facsimile: (03) 8677 1199</p>
     </div>
     <div className="footer-section">
       <p>Email: warragulcounsellingservices@gmail.com</p>

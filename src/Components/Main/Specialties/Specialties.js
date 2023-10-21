@@ -15,6 +15,7 @@ function Specialties() {
   };
 
   return (
+  
     <div className='content' id='/Specialties'>
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
@@ -52,6 +53,7 @@ function Specialties() {
       </Carousel>
       <div className='specialties-title'>Specialties</div>
     </div>
+  
   );
 }
 

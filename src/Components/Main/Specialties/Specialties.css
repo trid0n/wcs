@@ -3,7 +3,6 @@
     height: 120vh;
     display: flex;
     position: relative; /* Add this for z-index stacking context */
-    
   }
   
   .carousel {
@@ -68,3 +67,4 @@ height: 100vh;
   .carousel-control-prev {
 height: 130vh;
   }
+  

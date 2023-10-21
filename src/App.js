@@ -12,15 +12,20 @@ function App() {
       <Header>
       
       </Header>
+      <div className='App-outer-border'>
+      <div className='App-border'>
       <Main>
         
       </Main>
       <Aside>
 
       </Aside>
+      </div>
+      </div>
       <Footer>
        
       </Footer>
+      
     </div>
   );
 }
